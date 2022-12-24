@@ -14,8 +14,7 @@ body {
   align-items: center;
 }
 .container {
-  width: 100%;
-  max-width: 2260px;
+  width: 2260px;
   height: 1390px;
   background-color: #f0f5f5;
   padding: 75px 540px;
@@ -150,13 +149,11 @@ body {
   line-height: 21px;
   padding: 23px 13px;
   border-radius: 8px;
-  width: 350px;
+  width: 377px;
 }
+
 .box-foot-title {
-  width: min(100%, 350px);
-}
-.quti {
-  display: inline-block;
+  width: 377px;
 }
 .box-quti {
   margin-top: 30px;
@@ -166,16 +163,20 @@ body {
   color: #5e6f88;
   font-weight: 400;
   margin-bottom: 33px;
-  font-style: 14px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 16px;
-  letter-spacing: 1%;
+}
+
+.input-quti {
+  width: 20px;
+  height: 20px;
 }
 .label-ichi {
   color: #2dcfc1;
   font-weight: 600;
-  font-style: 14px;
-  line-height: 16px;
 }
+
 .right-btn {
   background-color: #2dcfc1;
   color: #ffffff;
@@ -184,7 +185,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   display: inline-block;
-  width: 350px;
+  width: 377px;
   height: 66px;
   display: flex;
   justify-content: center;
